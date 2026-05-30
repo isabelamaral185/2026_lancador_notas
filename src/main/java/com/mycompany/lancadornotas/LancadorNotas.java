@@ -16,6 +16,7 @@ public class LancadorNotas {
     public static void main(String[] args) {
         
         FlatLightLaf.setup();
+        System.out.println("teste");
         
         new Principal().setVisible(true); // Aqui vai fazer com que a jFrame apareça na tela, antes não aparecia pois a main é a LancadorNotas.
     }
